@@ -1,0 +1,39 @@
+friend{
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: gray;
+}
+title_fr{
+    background-color: green;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+   display: block; 
+}
+name{
+    color: green;
+    font-size: 26px;
+    text-align: center;
+    text-decoration-line: underline;
+    display: block;
+}
+nikname{
+    color: green;
+    text-align: center;
+    display: block;
+}
+like_study_subjects{
+    color: red;
+    text-align: center;
+    display: block;
+}
+Aptitude_writing_code{
+    color: blue;
+    text-align: center;
+    display: block;
+}
+projectname{
+    color: orange;
+    text-align: center;
+    display: block;
+}
