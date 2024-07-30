@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bank1.xsl"?>
+<!DOCTYPE sales [
+<!ELEMENT sales (sale+)>
+<!ELEMENT sale (id, customerbuy, nameproduct, pricequantity, dateofsale)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT customerbuy (#PCDATA)>
+<!ELEMENT nameproduct (#PCDATA)>
+<!ELEMENT pricequantity (#PCDATA)>
+<!ELEMENT dateofsale (#PCDATA)>
+
+]>
+
+<sales>
+    <sale>
+        <id>001</id>
+        <customerbuy>สมศรี ใจดี</customerbuy>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 0 - Jujutsu Kaisen</nameproduct>
+        <pricequantity>80/1</pricequantity>
+        <dateofsale>5/6/67</dateofsale>
+    </sale>
+    <sale>
+        <id>002</id>
+        <customerbuy>วิชัย ประสิทธิ์</customerbuy>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 1 - Jujutsu Kaisen</nameproduct>
+        <pricequantity>160/2</pricequantity>
+        <dateofsale>5/6/67</dateofsale>
+    </sale>
+    <sale>
+        <id>003</id>
+        <customerbuy>สุชาติ อินทจักร</customerbuy>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 2 - Jujutsu Kaisen</nameproduct>
+        <pricequantity>80/1</pricequantity>
+        <dateofsale>11/12/67</dateofsale>
+    </sale>
+    <sale>
+        <id>004</id>
+        <customerbuy>ณัฐพงษ์ สุขใจ</customerbuy>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 3 - Jujutsu Kaisen</nameproduct>
+        <pricequantity>80/1</pricequantity>
+        <dateofsale>6/5/67</dateofsale>
+    </sale>
+    <sale>
+        <id>005</id>
+        <customerbuy>ประกาพร เพ่งสว่าง</customerbuy>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 0 - Jujutsu Kaisen</nameproduct>
+        <pricequantity>80/0</pricequantity>
+        <dateofsale>30/5/67</dateofsale>
+    </sale>
+</sales>

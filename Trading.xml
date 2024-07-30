@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bank3.xsl"?>
+<!DOCTYPE products [
+<!ELEMENT products (product+)>
+<!ELEMENT product (ID, nameproduct, category, price, stock)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT nameproduct (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+]>
+
+<products>
+    <product>
+        <ID>001</ID>
+        <nameproduct>มหากาพย์มหัศจรรย์แห่ง 01 - มนุษย์หิมะ Kaisen</nameproduct>
+        <category>การ์ตูนทั่วไป</category>
+        <price>80 บาท</price>
+        <stock>10</stock>
+    </product>
+    <product>
+        <ID>002</ID>
+        <nameproduct>มหากาพย์มหัศจรรย์แห่ง 01 - มนุษย์หิมะ Kaisen</nameproduct>
+        <category>การ์ตูนทั่วไป</category>
+        <price>80 บาท</price>
+        <stock>10</stock>
+    </product>
+    <product>
+        <ID>003</ID>
+        <nameproduct>มหากาพย์มหัศจรรย์แห่ง 02 - มนุษย์หิมะ Kaisen</nameproduct>
+        <category>การ์ตูนทั่วไป</category>
+        <price>80 บาท</price>
+        <stock>10</stock>
+    </product>
+    <product>
+        <ID>004</ID>
+        <nameproduct>มหากาพย์มหัศจรรย์แห่ง 03 - มนุษย์หิมะ Kaisen</nameproduct>
+        <category>การ์ตูนทั่วไป</category>
+        <price>80 บาท</price>
+        <stock>10</stock>
+    </product>
+    <product>
+        <ID>005</ID>
+        <nameproduct>มหากาพย์มหัศจรรย์แห่ง 04 - มนุษย์หิมะ Kaisen</nameproduct>
+        <category>การ์ตูนทั่วไป</category>
+        <price>80 บาท</price>
+        <stock>10</stock>
+    </product>
+</products>

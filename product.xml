@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bank.xsl"?>
+<!DOCTYPE sales [
+<!ELEMENT sales (sale+)>
+<!ELEMENT sale (id, nameproduct, price, quantity, date)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nameproduct (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+]>
+
+<sales>
+    <sale>
+        <id>001</id>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 0 - Jujutsu Kaisen</nameproduct>
+        <price>80</price>
+        <quantity>10</quantity>
+        <date>25/3/67</date>
+    </sale>
+    <sale>
+        <id>002</id>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 1 - Jujutsu Kaisen</nameproduct>
+        <price>80</price>
+        <quantity>10</quantity>
+        <date>2/5/67</date>
+    </sale>
+    <sale>
+        <id>003</id>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 2 - Jujutsu Kaisen</nameproduct>
+        <price>80</price>
+        <quantity>10</quantity>
+        <date>20/10/67</date>
+    </sale>
+    <sale>
+        <id>004</id>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 3 - Jujutsu Kaisen</nameproduct>
+        <price>80</price>
+        <quantity>10</quantity>
+        <date>11/1/67</date>
+    </sale>
+    <sale>
+        <id>005</id>
+        <nameproduct>มหากาพย์เกิดใหม่ เล่ม 4 - Jujutsu Kaisen</nameproduct>
+        <price>80</price>
+        <quantity>10</quantity>
+        <date>11/5/67</date>
+    </sale>
+</sales>

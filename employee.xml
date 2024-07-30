@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bank2.xsl"?>
+<!DOCTYPE customers [
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (CustomerID, FirstName, LastName, Age, PhoneNumber)>
+<!ELEMENT CustomerID (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+
+]>
+
+<customers>
+    <customer>
+        <CustomerID>1</CustomerID>
+        <FirstName>สมศรี</FirstName>
+        <LastName>ใจดี</LastName>
+        <Age>24</Age>
+        <PhoneNumber>081-234-5678</PhoneNumber>
+    </customer>
+    <customer>
+        <CustomerID>2</CustomerID>
+        <FirstName>วิชัย</FirstName>
+        <LastName>ประสิทธิ์</LastName>
+        <Age>26</Age>
+        <PhoneNumber>082-345-6789</PhoneNumber>
+    </customer>
+    <customer>
+        <CustomerID>3</CustomerID>
+        <FirstName>สุชาติ</FirstName>
+        <LastName>ขันจัต</LastName>
+        <Age>20</Age>
+        <PhoneNumber>083-456-7890</PhoneNumber>
+    </customer>
+    <customer>
+        <CustomerID>4</CustomerID>
+        <FirstName>ณัฐพงษ์</FirstName>
+        <LastName>สุขใจ</LastName>
+        <Age>19</Age>
+        <PhoneNumber>084-567-8901</PhoneNumber>
+    </customer>
+    <customer>
+        <CustomerID>5</CustomerID>
+        <FirstName>ประภาพร</FirstName>
+        <LastName>เพชรสว่าง</LastName>
+        <Age>19</Age>
+        <PhoneNumber>085-678-9012</PhoneNumber>
+    </customer>
+</customers>
